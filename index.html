@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Social</title>
+</head>
+<body class="font-inter text-gray-800 bg-gray-100">
+    
+    <!-- start: Navbar -->
+    <nav class="py-1.5 bg-white shadow-md shadow-black/5 h-14 flex items-center sticky top-0 left-0 z-30">
+        <div class="container max-w-7xl mx-auto px-4 flex items-center">
+            <button type="button" class="sidebar-toggle mr-4 lg:hidden"><i class="ri-menu-2-line"></i></button>
+            <a href="#" class="flex items-center">
+                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                <span class="font-bold text-lg text-blue-500 hidden sm:block">Social</span>
+            </a>
+            <div class="ml-auto flex items-center">
+                <form action="" class="relative mr-4 hidden sm:block w-72">
+                    <input type="text" class="py-2.5 px-4 pl-10 text-sm rounded-md focus:outline-blue-500 bg-gray-100 w-full" placeholder="Search...">
+                    <i class="ri-search-line absolute top-1/2 -translate-y-1/2 left-4 text-gray-400 pointer-events-none"></i>
+                </form>
+                <ul class="flex items-center">
+                    <li class="mr-2 sm:hidden">
+                        <div class="dropdown group">
+                            <button type="button" class="dropdown-toggle w-8 h-8 rounded-md flex items-center justify-center hover:bg-gray-100 text-gray-400 group-[.active]:text-gray-500 group-[.active]:bg-gray-100">
+                                <i class="ri-search-line"></i>
+                            </button>
+                            <div class="dropdown-menu z-20 py-2 rounded-md shadow-md shadow-black/5 border border-gray-100 w-[calc(100%-32px)] sm:w-72 hidden group-[.active]:block bg-white">
+                                <form action="" class="relative mb-2 mx-4">
+                                    <input type="text" class="py-2.5 px-4 pl-10 text-sm rounded-md focus:outline-blue-500 bg-gray-100 w-full" placeholder="Search...">
+                                    <i class="ri-search-line absolute top-1/2 -translate-y-1/2 left-4 text-gray-400 pointer-events-none"></i>
+                                </form>
+                                <ul class="max-h-64 overflow-y-auto">
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center py-1.5 px-4 hover:bg-gray-100 text-gray-500 hover:text-gray-600 text-sm">
+                                            <i class="ri-search-line text-base mr-3"></i>
+                                            <span>Post 1</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mr-3">
+                        <div class="dropdown group">
+                            <button type="button" class="dropdown-toggle w-8 h-8 rounded-md flex items-center justify-center hover:bg-gray-100 text-gray-400 group-[.active]:text-gray-500 group-[.active]:bg-gray-100">
+                                <i class="ri-notification-3-line"></i>
+                            </button>
+                            <ul class="dropdown-menu z-20 py-2 rounded-md shadow-md shadow-black/5 border border-gray-100 w-72 max-h-64 overflow-y-auto hidden group-[.active]:block bg-white">
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-sm flex items-center hover:bg-gray-100">
+                                        <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                        <div>
+                                            <div class="text-sm font-semibold">John Doe</div>
+                                            <p class="text-[12px] text-gray-400">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown group">
+                            <button type="button" class="dropdown-toggle flex items-center">
+                                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md block">
+                            </button>
+                            <ul class="dropdown-menu z-20 py-2 rounded-md shadow-md shadow-black/5 border border-gray-100 min-w-[140px] hidden group-[.active]:block bg-white">
+                                <li>
+                                    <a href="#" class="flex items-center text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-600 py-1.5 px-4">
+                                        <i class="ri-user-4-line text-base mr-3"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="flex items-center text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-600 py-1.5 px-4">
+                                        <i class="ri-settings-line text-base mr-3"></i>
+                                        <span>Setting</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end: Navbar -->
+
+    <!-- start: Main -->
+    <main>
+        <div class="container mx-auto px-4 max-w-7xl flex items-start">
+            <!-- start: Sidebar -->
+            <div class="sidebar fixed lg:sticky top-0 lg:top-14 left-0 bg-white lg:bg-transparent z-40 w-64 flex-shrink-0 mr-4 h-full lg:h-[calc(100vh-56px)] overflow-y-auto py-4 px-4 lg:px-0">
+                <div class="mb-4">
+                    <ul>
+                        <li class="group active">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-home-2-line text-lg mr-3"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-chat-3-line text-lg mr-3"></i>
+                                <span>Messages</span>
+                                <span class="ml-auto w-5 h-5 rounded bg-rose-500 text-white font-bold text-[10px] flex items-center justify-center">3</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-user-follow-line text-lg mr-3"></i>
+                                <span>Friends</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-image-line text-lg mr-3"></i>
+                                <span>Photos</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-video-line text-lg mr-3"></i>
+                                <span>Videos</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-user-4-line text-lg mr-3"></i>
+                                <span>Profile</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-settings-line text-lg mr-3"></i>
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="text-[12px] uppercase font-semibold text-gray-400 tracking-wide mb-2">Favourites</div>
+                    <ul>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-home-2-line text-lg mr-3"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-chat-3-line text-lg mr-3"></i>
+                                <span>Messages</span>
+                                <span class="ml-auto w-5 h-5 rounded bg-rose-500 text-white font-bold text-[10px] flex items-center justify-center">3</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-user-follow-line text-lg mr-3"></i>
+                                <span>Friends</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-image-line text-lg mr-3"></i>
+                                <span>Photos</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-video-line text-lg mr-3"></i>
+                                <span>Videos</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-user-4-line text-lg mr-3"></i>
+                                <span>Profile</span>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="flex items-center py-2 px-4 text-sm rounded-md text-gray-500 hover:text-gray-600 group-[.active]:bg-gray-200 group-[.active]:text-gray-800 font-medium">
+                                <i class="ri-settings-line text-lg mr-3"></i>
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidebar-overlay fixed top-0 left-0 w-full h-full bg-black/50 z-30"></div>
+            <!-- end: Sidebar -->
+            <!-- start: Content -->
+            <div class="flex py-4 min-w-0 w-full">
+                <div class="w-full min-w-0">
+                    <div class="swiper mb-4">
+                        <div class="swiper-wrapper">
+                            <a href="#" class="swiper-slide w-24 h-36 rounded-md bg-white flex flex-col items-center justify-center">
+                                <i class="ri-add-circle-fill text-blue-500 text-lg"></i>
+                                <span class="text-[13px] font-semibold">Add story</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                            <a href="#" class="swiper-slide relative w-24 h-36 rounded-md overflow-hidden before:contents-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-16 before:bg-gradient-to-b before:from-transparent before:to-black/50 z-10">
+                                <img src="https://placehold.co/96x144" alt="" class="w-full h-full object-cover block">
+                                <span class="absolute bottom-3 left-0 w-full block text-center font-semibold text-white z-20 text-[13px]">John Doe</span>
+                                <span class="absolute top-3 right-3 w-5 h-5 rounded bg-blue-500 text-white text-[10px] flex items-center justify-center z-20 font-bold">1</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-md shadow-md shadow-black/5 flex items-center bg-white mb-4">
+                        <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                        <form action="" class="flex items-center w-full">
+                            <input type="text" placeholder="What's on your mind?" class="outline-none text-sm w-full">
+                            <button type="submit" class="ml-3 py-1.5 px-3 rounded-md bg-blue-500 text-white font-semibold text-[12px] hover:bg-blue-600">Post</button>
+                        </form>
+                    </div>
+                    <div class="p-4 rounded-md shadow-md shadow-black/5 bg-white mb-4">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center mr-4">
+                                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                <div>
+                                    <a href="#" class="font-semibold text-sm">John Doe</a>
+                                    <div class="text-gray-400 text-[12px]">1 hours ago</div>
+                                </div>
+                            </div>
+                            <div class="dropdown group">
+                                <button type="button" class="dropdown-toggle flex items-center justify-center w-5 h-5 text-sm rounded bg-gray-100 text-gray-400 group-[.active]:text-gray-500">
+                                    <i class="ri-more-fill"></i>
+                                </button>
+                                <ul class="dropdown-menu z-20 py-2 rounded-md shadow-md shadow-black/5 border border-gray-100 min-w-[140px] hidden group-[.active]:block bg-white">
+                                    <li>
+                                        <a href="#" class="flex items-center text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-600 py-1.5 px-4">
+                                            <i class="ri-user-4-line text-base mr-3"></i>
+                                            <span>Profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-600 py-1.5 px-4">
+                                            <i class="ri-settings-line text-base mr-3"></i>
+                                            <span>Setting</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-gray-500 text-sm leading-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam asperiores ipsum perspiciatis velit, ex molestias tempore? Ut quam dicta dolore!</p>
+                            <div class="grid grid-cols-2 gap-4">
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="-ml-4 -mr-4 border-t border-b border-gray-100 pt-1 px-4 flex items-center flex-wrap">
+                            <a href="#" class="flex items-center p-2 rounded-md hover:bg-gray-100 font-semibold text-gray-500 text-[13px] hover:text-gray-800 mr-auto mb-1">
+                                <div class="flex items-center mr-2">
+                                    <img src="https://placehold.co/24x24" alt="" class="w-6 h-6 rounded-full">
+                                    <img src="https://placehold.co/24x24" alt="" class="w-6 h-6 rounded-full -ml-3">
+                                    <img src="https://placehold.co/24x24" alt="" class="w-6 h-6 rounded-full -ml-3">
+                                </div>
+                                <span>5 Comments</span>
+                            </a>
+                            <div class="flex items-center mb-1">
+                                <a href="#" class="flex items-center p-2 rounded-md hover:bg-gray-100 font-semibold text-gray-500 text-[13px] hover:text-gray-800 mr-2">
+                                    <i class="ri-thumb-up-line mr-2"></i>
+                                    <span>27 Likes</span>
+                                </a>
+                                <a href="#" class="flex items-center p-2 rounded-md hover:bg-gray-100 font-semibold text-gray-500 text-[13px] hover:text-gray-800">
+                                    <i class="ri-share-line mr-2"></i>
+                                    <span>10 Share</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-h-64 overflow-y-auto pt-2 -ml-4 -mr-4 px-4">
+                            <div class="py-2">
+                                <div class="flex items-center justify-between mb-1">
+                                    <div class="flex items-center">
+                                        <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                        <div>
+                                            <a href="#" class="font-semibold text-sm">John Doe</a>
+                                            <div class="text-gray-400 text-[12px]">1 hours ago</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-[12px] font-semibold text-gray-400 hover:text-blue-500">Reply</a>
+                                </div>
+                                <p class="text-sm leading-normal text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, sunt!</p>
+                            </div>
+                            <div class="py-2">
+                                <div class="flex items-center justify-between mb-1">
+                                    <div class="flex items-center">
+                                        <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                        <div>
+                                            <a href="#" class="font-semibold text-sm">John Doe</a>
+                                            <div class="text-gray-400 text-[12px]">1 hours ago</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-[12px] font-semibold text-gray-400 hover:text-blue-500">Reply</a>
+                                </div>
+                                <p class="text-sm leading-normal text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, sunt!</p>
+                            </div>
+                            <div class="py-2">
+                                <div class="flex items-center justify-between mb-1">
+                                    <div class="flex items-center">
+                                        <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                        <div>
+                                            <a href="#" class="font-semibold text-sm">John Doe</a>
+                                            <div class="text-gray-400 text-[12px]">1 hours ago</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-[12px] font-semibold text-gray-400 hover:text-blue-500">Reply</a>
+                                </div>
+                                <p class="text-sm leading-normal text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, sunt!</p>
+                            </div>
+                            <div class="py-2">
+                                <div class="flex items-center justify-between mb-1">
+                                    <div class="flex items-center">
+                                        <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                        <div>
+                                            <a href="#" class="font-semibold text-sm">John Doe</a>
+                                            <div class="text-gray-400 text-[12px]">1 hours ago</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-[12px] font-semibold text-gray-400 hover:text-blue-500">Reply</a>
+                                </div>
+                                <p class="text-sm leading-normal text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, sunt!</p>
+                            </div>
+                            <div class="flex items-center pt-2 pb-1 bg-white sticky bottom-0 left-0">
+                                <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                <form action="" class="relative w-full">
+                                    <input type="text" class="py-2 px-4 pr-10 text-sm rounded-md focus:outline-blue-500 bg-gray-100 w-full" placeholder="Search...">
+                                    <button type="submit" class="absolute top-1/2 -translate-y-1/2 right-4 text-blue-500 font-semibold">
+                                        <i class="ri-send-plane-2-line"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-md shadow-md shadow-black/5 bg-white mb-4">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center mr-4">
+                                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                <div>
+                                    <a href="#" class="font-semibold text-sm">John Doe</a>
+                                    <div class="text-gray-400 text-[12px]">1 hours ago</div>
+                                </div>
+                            </div>
+                            <div class="dropdown group">
+                                <button type="button" class="dropdown-toggle flex items-center justify-center w-5 h-5 text-sm rounded bg-gray-100 text-gray-400 group-[.active]:text-gray-500">
+                                    <i class="ri-more-fill"></i>
+                                </button>
+                                <ul class="dropdown-menu z-20 py-2 rounded-md shadow-md shadow-black/5 border border-gray-100 min-w-[140px] hidden group-[.active]:block bg-white">
+                                    <li>
+                                        <a href="#" class="flex items-center text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-600 py-1.5 px-4">
+                                            <i class="ri-user-4-line text-base mr-3"></i>
+                                            <span>Profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="flex items-center text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-600 py-1.5 px-4">
+                                            <i class="ri-settings-line text-base mr-3"></i>
+                                            <span>Setting</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-gray-500 text-sm leading-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam asperiores ipsum perspiciatis velit, ex molestias tempore? Ut quam dicta dolore!</p>
+                            <div class="grid grid-cols-2 gap-4">
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="-ml-4 -mr-4 border-t border-b border-gray-100 pt-1 px-4 flex items-center flex-wrap">
+                            <a href="#" class="flex items-center p-2 rounded-md hover:bg-gray-100 font-semibold text-gray-500 text-[13px] hover:text-gray-800 mr-auto mb-1">
+                                <div class="flex items-center mr-2">
+                                    <img src="https://placehold.co/24x24" alt="" class="w-6 h-6 rounded-full">
+                                    <img src="https://placehold.co/24x24" alt="" class="w-6 h-6 rounded-full -ml-3">
+                                    <img src="https://placehold.co/24x24" alt="" class="w-6 h-6 rounded-full -ml-3">
+                                </div>
+                                <span>5 Comments</span>
+                            </a>
+                            <div class="flex items-center mb-1">
+                                <a href="#" class="flex items-center p-2 rounded-md hover:bg-gray-100 font-semibold text-gray-500 text-[13px] hover:text-gray-800 mr-2">
+                                    <i class="ri-thumb-up-line mr-2"></i>
+                                    <span>27 Likes</span>
+                                </a>
+                                <a href="#" class="flex items-center p-2 rounded-md hover:bg-gray-100 font-semibold text-gray-500 text-[13px] hover:text-gray-800">
+                                    <i class="ri-share-line mr-2"></i>
+                                    <span>10 Share</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-h-64 overflow-y-auto pt-2 -ml-4 -mr-4 px-4">
+                            <div class="flex items-center pt-2 pb-1 bg-white sticky bottom-0 left-0">
+                                <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 object-cover rounded-md mr-3">
+                                <form action="" class="relative w-full">
+                                    <input type="text" class="py-2 px-4 pr-10 text-sm rounded-md focus:outline-blue-500 bg-gray-100 w-full" placeholder="Search...">
+                                    <button type="submit" class="absolute top-1/2 -translate-y-1/2 right-4 text-blue-500 font-semibold">
+                                        <i class="ri-send-plane-2-line"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-72 flex-shrink-0 ml-4 hidden md:block">
+                    <div class="p-4 rounded-md shadow-md shadow-black/5 bg-white mb-4">
+                        <div class="font-semibold text-[12px] uppercase text-gray-500 mb-4">Requests</div>
+                        <ul>
+                            <li class="mb-4">
+                                <div class="flex items-center mb-3">
+                                    <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                    <div class="text-sm"><span class="font-bold">John Doe</span> want to be your friend</div>
+                                </div>
+                                <div class="flex items-center">
+                                    <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold text-blue-500 bg-blue-50 hover:bg-blue-500 hover:text-white w-full text-center mr-2">Accept</a>
+                                    <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold hover:bg-gray-100 w-full text-center">Decline</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex items-center mb-3">
+                                    <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                    <div class="text-sm"><span class="font-bold">John Doe</span> want to be your friend</div>
+                                </div>
+                                <div class="flex items-center">
+                                    <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold text-blue-500 bg-blue-50 hover:bg-blue-500 hover:text-white w-full text-center mr-2">Accept</a>
+                                    <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold hover:bg-gray-100 w-full text-center">Decline</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-4 rounded-md shadow-md shadow-black/5 bg-white mb-4">
+                        <div class="font-semibold text-[12px] uppercase text-gray-500 mb-4">Suggestions</div>
+                        <ul>
+                            <li class="flex items-center mb-3">
+                                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                <a href="#" class="text-sm font-bold">John Doe</a>
+                                <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold text-blue-500 bg-blue-50 hover:bg-blue-500 hover:text-white text-center ml-auto">Add</a>
+                            </li>
+                            <li class="flex items-center mb-3">
+                                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                <a href="#" class="text-sm font-bold">John Doe</a>
+                                <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold text-blue-500 bg-blue-50 hover:bg-blue-500 hover:text-white text-center ml-auto">Add</a>
+                            </li>
+                            <li class="flex items-center mb-3">
+                                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                <a href="#" class="text-sm font-bold">John Doe</a>
+                                <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold text-blue-500 bg-blue-50 hover:bg-blue-500 hover:text-white text-center ml-auto">Add</a>
+                            </li>
+                            <li class="flex items-center">
+                                <img src="https://placehold.co/36x36" alt="" class="w-9 h-9 object-cover rounded-md mr-3">
+                                <a href="#" class="text-sm font-bold">John Doe</a>
+                                <a href="#" class="py-1.5 px-3 rounded-md text-[12px] font-semibold text-blue-500 bg-blue-50 hover:bg-blue-500 hover:text-white text-center ml-auto">Add</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-4 rounded-md shadow-md shadow-black/5 bg-white mb-4">
+                        <div class="font-semibold text-[12px] uppercase text-gray-500 mb-4">Trending</div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <a href="#">
+                                <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                            </a>
+                            <a href="#">
+                                <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                            </a>
+                            <a href="#">
+                                <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                            </a>
+                            <a href="#">
+                                <img src="https://placehold.co/80x80" alt="" class="w-full h-full object-cover rounded-md">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: Content -->
+        </div>
+    </main>
+    <!-- end: Main -->
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
